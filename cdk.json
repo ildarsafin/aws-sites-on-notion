@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/notion-sites-on-aws.ts",
+  "app": "npx ts-node --prefer-ts-exts bin/ci.ts",
   "watch": {
     "include": [
       "**"

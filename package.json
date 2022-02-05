@@ -1,6 +1,6 @@
 {
   "name": "notion-sites-on-aws",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "bin": {
     "notion-sites-on-aws": "bin/notion-sites-on-aws.js"
   },
@@ -20,8 +20,12 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-solutions-constructs/aws-apigateway-lambda": "^2.2.0",
+    "@aws-solutions-constructs/aws-cloudfront-apigateway": "^2.2.0",
     "aws-cdk-lib": "2.10.0",
+    "aws-solutions-constructs": "0.0.1-security",
     "constructs": "^10.0.0",
+    "dotenv": "^16.0.0",
     "source-map-support": "^0.5.16"
   }
 }

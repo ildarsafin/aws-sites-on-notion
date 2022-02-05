@@ -1,0 +1,17 @@
+{
+  "name": "notion-sites-on-aws",
+  "version": "0.1.0",
+  "description": "Deploy Notion Sites on AWS",
+  "main": "handler.js",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0",
+    "qs": "^6.9.4"
+  },
+  "volta": {
+    "node": "14.19.0",
+    "yarn": "1.22.5"
+  }
+}
